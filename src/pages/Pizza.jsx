@@ -1,8 +1,18 @@
-import Pastaul from '../components/layout/Pastaul'
+import { pizza_li } from '../assets/data'
+import ProductCard from '../components/ul/ProductCard'
 
 const Pizza = () => {
     return (
-            <Pastaul />
+        <div className='container'>
+            <h1 className='text-[yellow] text-[32px] font-extrabold'>Drink</h1>
+            <ul className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[50px] mt-[10px]'>
+                {pizza_li.map(item => {
+                    return (
+                        <ProductCard key={item.id} product={item} />
+                    )
+                })}
+            </ul>
+        </div>
     )
 }
 

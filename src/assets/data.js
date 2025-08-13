@@ -1,3 +1,8 @@
+//Pizza imgages
+import CheesePizza from './pizza-img/Cheese-pizza.png'
+import MixPizza from './pizza-img/mix-pizza-new.png'
+import tomotoPizza from './pizza-img/tomotos-pizza.png'
+import mushroomPIzza from './pizza-img/mushroom-pizza.png'
 //Soup images
 import soup from './pizza-img/soup.jpg'
 import soup2 from './pizza-img/soup2.jpg'
@@ -22,6 +27,150 @@ import dessert from './pizza-img/dessert1.webp'
 import dessert2 from './pizza-img/dessetrs2.webp'
 import dessert3 from './pizza-img/dessetr3.jpg'
 
+const pizza_li = [
+    {
+        id: 1,
+        picture: CheesePizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 2,
+        picture: MixPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,00'
+    },
+    {
+        id: 3,
+        picture: tomotoPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 4,
+        picture: mushroomPIzza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 5,
+        picture: CheesePizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 6,
+        picture: MixPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,000'
+    },
+    {
+        id: 7,
+        picture: tomotoPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 8,
+        picture: mushroomPIzza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 9,
+        picture: CheesePizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,000'
+    },
+    {
+        id: 10,
+        picture: MixPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,000'
+    },
+    {
+        id: 11,
+        picture: tomotoPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 12,
+        picture: mushroomPIzza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 13,
+        picture: CheesePizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,000'
+    },
+    {
+        id: 14,
+        picture: MixPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,00'
+    },
+    {
+        id: 15,
+        picture: tomotoPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 16,
+        picture: mushroomPIzza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,000'
+    },
+    {
+        id: 17,
+        picture: CheesePizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 18,
+        picture: MixPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,000'
+    },
+    {
+        id: 19,
+        picture: tomotoPizza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 32,000'
+    },
+    {
+        id: 20,
+        picture: mushroomPIzza,
+        title: 'With shrimps and truffles',
+        desc: 'Homemade fettuccine pasta, cream sauce, shrimps, truffle oil, black pepper, parmesan.350 g',
+        price: 'from 35,000'
+    },
+
+
+]
 const soup_li = [
     {
         id: 1,
@@ -452,4 +601,4 @@ const dessert_li = [
         price: 'from 20,000'
     },
 ]
-export {soup_li , salad_li , pasta_li , drinks_li , dessert_li}
+export { pizza_li, soup_li, salad_li, pasta_li, drinks_li, dessert_li }

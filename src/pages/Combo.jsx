@@ -5,11 +5,6 @@ import pattern from '../assets/pizza-img/pattern.png'
 import pastaSlays from '../assets/pizza-img/pizza-slays.png'
 import slays from '../assets/pizza-img/slays.png'
 import whiteimg from '../assets/pizza-img/white-pasta-pizza.png'
-import Footer from '../components/layout/Footer'
-
-
-
-
 const Combo = () => {
   const stock_li = [
     {
@@ -101,15 +96,10 @@ const Combo = () => {
                 </li>
               )
             })}
-
           </ul>
         </div>
       </div >
-      <Footer />
     </>
-
-
-
   )
 }
 

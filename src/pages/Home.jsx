@@ -2,9 +2,8 @@ import React, { useRef } from 'react'
 import yellowGirl from '../assets/pizza-img/yellow-girl.png'
 import blackGirl from '../assets/pizza-img/black-gril.png'
 import NewItems from '../components/layout/NewItems'
-import Pastaul from '../components/layout/Pastaul'
 import Payment from '../components/layout/Payment'
-import Footer from '../components/layout/Footer'
+import Pizza from './Pizza'
 const Home = () => {
   // Scrool-img 
   const img_nav = [
@@ -56,9 +55,8 @@ const Home = () => {
         <button onClick={scrollRight} className='p-[10px] bg-[yellow] hover:bg-amber-300 rounded-[50px] inline-block '><i className="bi bi-chevron-right flex justify-center "></i></button>
       </div>
       <NewItems />
-      <Pastaul />
+      <Pizza />
       <Payment />
-      <Footer />
     </div>
 
 
