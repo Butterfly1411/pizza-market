@@ -7,7 +7,7 @@ const ProductCard = ({product}) => {
             <p className='text-[#686466] text-[13px] leading-[19px] font-medium'>{product.desc}</p>
             <div className='flex justify-between items-center mt-[15px]'>
                 <h3 className='text-[#231F20] text-[20px] font-semibold '>{product.price}</h3>
-                <button className='px-[30px] py-[10px] bg-[#F7D22D] rounded-[8px] text-white hover:text-[grey] text-[14px] font-semibold'>Add to cart</button>
+                <button className='px-[25px] py-[10px] bg-[#F7D22D] rounded-[8px] text-white hover:text-[grey] text-[14px] font-semibold'>Add to cart</button>
             </div>
         </li>
     )
